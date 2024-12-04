@@ -1,0 +1,21 @@
+#import <stdio.h> 
+#define PI 3.1415
+
+// isto eh um comentario
+;
+void main(){
+   void func( int x , int j){
+      for ( int i = 0 ; i <= 10 ; i++) {
+         if ( i != 10 ) {
+            if( i && j ){
+               scan ( x );
+               j %= PI;
+            } else {
+               print( x );
+               "isto eh uma string";
+            }; 
+         };
+      };
+      return x;
+   };
+};
